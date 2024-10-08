@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.btn-container{
+    text-align: center;
+}
+.btn{
+    padding: 14px 18px 14px 18px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0%;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    cursor: pointer;
+
+}
+.hero{
+    height: 450px;
+    background-image:linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url('assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .hero-content {
+    width: 501px;
+}
+.hero .hero-content .subtitle{
+    color: rgb(255, 255, 255);
+    font-family:  sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+.hero .hero-content .title{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 0%;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.hero .hero-content .description{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-family: Work Sans;
+    line-height: 14px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+/* section two */
+.card-box{
+    width: 650px;
+    margin: 100px auto;
+}
+.card-box .title{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 28px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0%;
+text-align: center;
+}
+.card-box .subtitle{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+}
+.card-container{
+    margin-top: 26px;
+    display: flex;
+    gap: 16px;
+}
+.card{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+}
+.card .image-box{
+    width: 250px;
+}
+.card .image-box img{
+    width: 100%;
+}
+.card .shop{
+   background-color: aliceblue;
+   padding: 10px 18px 10px 18px;
+   color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+cursor: pointer;
+border-radius: 8px;
+background: rgba(82, 195, 3, 0.15);
+}
+
+/* third section */
+
+
+.about{
+   margin: 0 auto;
+}
+.about .about-us{
+    display: flex;
+}
+
+
+.about .slide {
+    width: 100%;
+}
+.about .social{
+    width: 100%;
+}
+.social{
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.social-title{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+}
+.social-p{
+    margin-top: 12px;
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+opacity: 0.6;
+}
+.social .follow{
+    color: rgb(16, 16, 16);
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+padding: 30px 10px 30px 10px;
+gap: 10;
+}
+.social-media-icons{
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 20px;
+}
+
+.image {
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  .social-media {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .social-media a {
+    margin-right: 15px;
+    font-size: 24px;
+    color: #555;
+    text-decoration: none;
+  }
+
+  .social-media a:hover {
+    color: #0073e6;
+  }
